@@ -30,7 +30,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 # Train model
 # model = LinearRegression()
 
-model = Lasso(alpha=0.1)
+model = Lasso(alpha=0.5)
 
 model.fit(X_train, y_train)
 
